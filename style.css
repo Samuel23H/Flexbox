@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    background: #646e70;
+    
+}
+
+.pai {
+display: flex;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Logo {  
+    color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    
+}
+
+.pai a {
+    display: block;
+    padding: 23px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.pai a:hover{
+color: black;
+}
+
+.Logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.uno{
+    color: #646e70;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dos{
+    color: #646e70;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section{
+    background: black;
+    color: #fff;
+    flex: 70%;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.tarjetas .card{
+    background-color: rgb(92, 148, 143);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px dotted rgb(11, 11, 12);
+    border-radius: 30px;
+    box-shadow: 7px 7px rgb(255, 250, 250);
+    padding: 10px;
+    overflow: auto;
+    aspect-ratio: ratio 700px / 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tarjetas .card .contenido img{
+display: block;
+margin: auto;
+width: 60%;
+}
+
+.tarjetas .card .contenido .centrar{
+    text-align: center;
+    color: rgb(16, 16, 19);
+    border-bottom: 2px solid rgb(179, 172, 172);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cuadro{
+    display: flex;
+    background:radial-gradient(rgb(99, 181, 214), rgb(151, 151, 119), rgb(173, 142, 39));
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadro .imagen{
+    flex: 33%;
+}
+
+.cuadro .imagen img{
+width: 50%;
+}
+
+.cuadro .texto{
+    flex: 66%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+
+}
+
